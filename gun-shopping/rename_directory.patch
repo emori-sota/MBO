@@ -1,0 +1,337 @@
+Index: demo/src/main/resources/application.properties
+===================================================================
+--- demo/src/main/resources/application.properties	(revision dc45cccdcf2b15bcac64bab647857a33a175a707)
++++ demo/src/main/resources/application.properties	(revision dc45cccdcf2b15bcac64bab647857a33a175a707)
+@@ -1,0 +0,0 @@
+Index: demo/src/test/java/com/example/demo/DemoApplicationTests.java
+===================================================================
+--- demo/src/test/java/com/example/demo/DemoApplicationTests.java	(revision dc45cccdcf2b15bcac64bab647857a33a175a707)
++++ demo/src/test/java/com/example/demo/DemoApplicationTests.java	(revision dc45cccdcf2b15bcac64bab647857a33a175a707)
+@@ -1,16 +0,0 @@
+-package com.example.demo;
+-
+-import org.junit.Test;
+-import org.junit.runner.RunWith;
+-import org.springframework.boot.test.context.SpringBootTest;
+-import org.springframework.test.context.junit4.SpringRunner;
+-
+-@RunWith(SpringRunner.class)
+-@SpringBootTest
+-public class DemoApplicationTests {
+-
+-	@Test
+-	public void contextLoads() {
+-	}
+-
+-}
+Index: demo/.mvn/wrapper/maven-wrapper.properties
+===================================================================
+--- demo/.mvn/wrapper/maven-wrapper.properties	(revision dc45cccdcf2b15bcac64bab647857a33a175a707)
++++ demo/.mvn/wrapper/maven-wrapper.properties	(revision dc45cccdcf2b15bcac64bab647857a33a175a707)
+@@ -1,1 +0,0 @@
+-distributionUrl=https://repo1.maven.org/maven2/org/apache/maven/apache-maven/3.5.2/apache-maven-3.5.2-bin.zip
+Index: demo/.gitignore
+===================================================================
+--- demo/.gitignore	(revision dc45cccdcf2b15bcac64bab647857a33a175a707)
++++ demo/.gitignore	(revision dc45cccdcf2b15bcac64bab647857a33a175a707)
+@@ -1,24 +0,0 @@
+-target/
+-!.mvn/wrapper/maven-wrapper.jar
+-
+-### STS ###
+-.apt_generated
+-.classpath
+-.factorypath
+-.project
+-.settings
+-.springBeans
+-
+-### IntelliJ IDEA ###
+-.idea
+-*.iws
+-*.iml
+-*.ipr
+-
+-### NetBeans ###
+-nbproject/private/
+-build/
+-nbbuild/
+-dist/
+-nbdist/
+-.nb-gradle/
+\ No newline at end of file
+Index: demo/src/main/java/com/example/demo/TestController.java
+===================================================================
+--- demo/src/main/java/com/example/demo/TestController.java	(revision dc45cccdcf2b15bcac64bab647857a33a175a707)
++++ demo/src/main/java/com/example/demo/TestController.java	(revision dc45cccdcf2b15bcac64bab647857a33a175a707)
+@@ -1,29 +0,0 @@
+-package com.example.demo;
+-
+-import java.util.ArrayList;
+-import java.util.List;
+-
+-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+-import org.springframework.web.bind.annotation.RequestMapping;
+-import org.springframework.web.bind.annotation.RequestParam;
+-import org.springframework.web.bind.annotation.ResponseBody;
+-import org.springframework.web.bind.annotation.RestController;
+-
+-@RestController		// Rest API Controller
+-@EnableAutoConfiguration       // 設定を自動的に有効化
+-public class TestController {
+-
+-    @RequestMapping("/")	// URLのパスを指定
+-    @ResponseBody
+-    public List<String> top(@RequestParam(value = "name", required = false) String name) 
+-    {
+-        List<String> list = new ArrayList<String>();
+-        list.add("SpringBootの最小アプリケーション");
+-        if (name == "hoge") {
+-            list.add("(パラメータにhoge指定)");
+-        } else {
+-            list.add("(パラメータ指定無し)");
+-        }
+-        return list;
+-    }
+-}
+\ No newline at end of file
+Index: demo/pom.xml
+===================================================================
+--- demo/pom.xml	(revision dc45cccdcf2b15bcac64bab647857a33a175a707)
++++ demo/pom.xml	(revision dc45cccdcf2b15bcac64bab647857a33a175a707)
+@@ -1,56 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+-	<modelVersion>4.0.0</modelVersion>
+-
+-	<groupId>com.example</groupId>
+-	<artifactId>demo</artifactId>
+-	<version>0.0.1-SNAPSHOT</version>
+-	<packaging>jar</packaging>
+-
+-	<name>demo</name>
+-	<description>Gun Shopping EC_Site</description>
+-
+-	<parent>
+-		<groupId>org.springframework.boot</groupId>
+-		<artifactId>spring-boot-starter-parent</artifactId>
+-		<version>1.5.9.RELEASE</version>
+-		<relativePath/> <!-- lookup parent from repository -->
+-	</parent>
+-
+-	<properties>
+-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+-		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+-		<java.version>1.8</java.version>
+-	</properties>
+-
+-	<dependencies>
+-		<dependency>
+-			<groupId>org.springframework.boot</groupId>
+-			<artifactId>spring-boot-starter</artifactId>
+-		</dependency>
+-
+-		<dependency>
+-			<groupId>org.springframework.boot</groupId>
+-			<artifactId>spring-boot-starter-test</artifactId>
+-			<scope>test</scope>
+-		</dependency>
+-		
+-      <dependency>
+-        <groupId>org.springframework.boot</groupId>
+-        <artifactId>spring-boot-starter-web</artifactId>
+-      </dependency>
+-      
+-	</dependencies>
+-
+-	<build>
+-		<plugins>
+-			<plugin>
+-				<groupId>org.springframework.boot</groupId>
+-				<artifactId>spring-boot-maven-plugin</artifactId>
+-			</plugin>
+-		</plugins>
+-	</build>
+-
+-
+-</project>
+Index: demo/src/main/java/com/example/demo/DemoApplication.java
+===================================================================
+--- demo/src/main/java/com/example/demo/DemoApplication.java	(revision dc45cccdcf2b15bcac64bab647857a33a175a707)
++++ demo/src/main/java/com/example/demo/DemoApplication.java	(revision dc45cccdcf2b15bcac64bab647857a33a175a707)
+@@ -1,12 +0,0 @@
+-package com.example.demo;
+-
+-import org.springframework.boot.SpringApplication;
+-import org.springframework.boot.autoconfigure.SpringBootApplication;
+-
+-@SpringBootApplication
+-public class DemoApplication {
+-
+-	public static void main(String[] args) {
+-		SpringApplication.run(DemoApplication.class, args);
+-	}
+-}
+Index: demo/mvnw.cmd
+===================================================================
+--- demo/mvnw.cmd	(revision dc45cccdcf2b15bcac64bab647857a33a175a707)
++++ demo/mvnw.cmd	(revision dc45cccdcf2b15bcac64bab647857a33a175a707)
+@@ -1,143 +0,0 @@
+-@REM ----------------------------------------------------------------------------
+-@REM Licensed to the Apache Software Foundation (ASF) under one
+-@REM or more contributor license agreements.  See the NOTICE file
+-@REM distributed with this work for additional information
+-@REM regarding copyright ownership.  The ASF licenses this file
+-@REM to you under the Apache License, Version 2.0 (the
+-@REM "License"); you may not use this file except in compliance
+-@REM with the License.  You may obtain a copy of the License at
+-@REM
+-@REM    http://www.apache.org/licenses/LICENSE-2.0
+-@REM
+-@REM Unless required by applicable law or agreed to in writing,
+-@REM software distributed under the License is distributed on an
+-@REM "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+-@REM KIND, either express or implied.  See the License for the
+-@REM specific language governing permissions and limitations
+-@REM under the License.
+-@REM ----------------------------------------------------------------------------
+-
+-@REM ----------------------------------------------------------------------------
+-@REM Maven2 Start Up Batch script
+-@REM
+-@REM Required ENV vars:
+-@REM JAVA_HOME - location of a JDK home dir
+-@REM
+-@REM Optional ENV vars
+-@REM M2_HOME - location of maven2's installed home dir
+-@REM MAVEN_BATCH_ECHO - set to 'on' to enable the echoing of the batch commands
+-@REM MAVEN_BATCH_PAUSE - set to 'on' to wait for a key stroke before ending
+-@REM MAVEN_OPTS - parameters passed to the Java VM when running Maven
+-@REM     e.g. to debug Maven itself, use
+-@REM set MAVEN_OPTS=-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000
+-@REM MAVEN_SKIP_RC - flag to disable loading of mavenrc files
+-@REM ----------------------------------------------------------------------------
+-
+-@REM Begin all REM lines with '@' in case MAVEN_BATCH_ECHO is 'on'
+-@echo off
+-@REM enable echoing my setting MAVEN_BATCH_ECHO to 'on'
+-@if "%MAVEN_BATCH_ECHO%" == "on"  echo %MAVEN_BATCH_ECHO%
+-
+-@REM set %HOME% to equivalent of $HOME
+-if "%HOME%" == "" (set "HOME=%HOMEDRIVE%%HOMEPATH%")
+-
+-@REM Execute a user defined script before this one
+-if not "%MAVEN_SKIP_RC%" == "" goto skipRcPre
+-@REM check for pre script, once with legacy .bat ending and once with .cmd ending
+-if exist "%HOME%\mavenrc_pre.bat" call "%HOME%\mavenrc_pre.bat"
+-if exist "%HOME%\mavenrc_pre.cmd" call "%HOME%\mavenrc_pre.cmd"
+-:skipRcPre
+-
+-@setlocal
+-
+-set ERROR_CODE=0
+-
+-@REM To isolate internal variables from possible post scripts, we use another setlocal
+-@setlocal
+-
+-@REM ==== START VALIDATION ====
+-if not "%JAVA_HOME%" == "" goto OkJHome
+-
+-echo.
+-echo Error: JAVA_HOME not found in your environment. >&2
+-echo Please set the JAVA_HOME variable in your environment to match the >&2
+-echo location of your Java installation. >&2
+-echo.
+-goto error
+-
+-:OkJHome
+-if exist "%JAVA_HOME%\bin\java.exe" goto init
+-
+-echo.
+-echo Error: JAVA_HOME is set to an invalid directory. >&2
+-echo JAVA_HOME = "%JAVA_HOME%" >&2
+-echo Please set the JAVA_HOME variable in your environment to match the >&2
+-echo location of your Java installation. >&2
+-echo.
+-goto error
+-
+-@REM ==== END VALIDATION ====
+-
+-:init
+-
+-@REM Find the project base dir, i.e. the directory that contains the folder ".mvn".
+-@REM Fallback to current working directory if not found.
+-
+-set MAVEN_PROJECTBASEDIR=%MAVEN_BASEDIR%
+-IF NOT "%MAVEN_PROJECTBASEDIR%"=="" goto endDetectBaseDir
+-
+-set EXEC_DIR=%CD%
+-set WDIR=%EXEC_DIR%
+-:findBaseDir
+-IF EXIST "%WDIR%"\.mvn goto baseDirFound
+-cd ..
+-IF "%WDIR%"=="%CD%" goto baseDirNotFound
+-set WDIR=%CD%
+-goto findBaseDir
+-
+-:baseDirFound
+-set MAVEN_PROJECTBASEDIR=%WDIR%
+-cd "%EXEC_DIR%"
+-goto endDetectBaseDir
+-
+-:baseDirNotFound
+-set MAVEN_PROJECTBASEDIR=%EXEC_DIR%
+-cd "%EXEC_DIR%"
+-
+-:endDetectBaseDir
+-
+-IF NOT EXIST "%MAVEN_PROJECTBASEDIR%\.mvn\jvm.config" goto endReadAdditionalConfig
+-
+-@setlocal EnableExtensions EnableDelayedExpansion
+-for /F "usebackq delims=" %%a in ("%MAVEN_PROJECTBASEDIR%\.mvn\jvm.config") do set JVM_CONFIG_MAVEN_PROPS=!JVM_CONFIG_MAVEN_PROPS! %%a
+-@endlocal & set JVM_CONFIG_MAVEN_PROPS=%JVM_CONFIG_MAVEN_PROPS%
+-
+-:endReadAdditionalConfig
+-
+-SET MAVEN_JAVA_EXE="%JAVA_HOME%\bin\java.exe"
+-
+-set WRAPPER_JAR="%MAVEN_PROJECTBASEDIR%\.mvn\wrapper\maven-wrapper.jar"
+-set WRAPPER_LAUNCHER=org.apache.maven.wrapper.MavenWrapperMain
+-
+-%MAVEN_JAVA_EXE% %JVM_CONFIG_MAVEN_PROPS% %MAVEN_OPTS% %MAVEN_DEBUG_OPTS% -classpath %WRAPPER_JAR% "-Dmaven.multiModuleProjectDirectory=%MAVEN_PROJECTBASEDIR%" %WRAPPER_LAUNCHER% %MAVEN_CONFIG% %*
+-if ERRORLEVEL 1 goto error
+-goto end
+-
+-:error
+-set ERROR_CODE=1
+-
+-:end
+-@endlocal & set ERROR_CODE=%ERROR_CODE%
+-
+-if not "%MAVEN_SKIP_RC%" == "" goto skipRcPost
+-@REM check for post script, once with legacy .bat ending and once with .cmd ending
+-if exist "%HOME%\mavenrc_post.bat" call "%HOME%\mavenrc_post.bat"
+-if exist "%HOME%\mavenrc_post.cmd" call "%HOME%\mavenrc_post.cmd"
+-:skipRcPost
+-
+-@REM pause the script if MAVEN_BATCH_PAUSE is set to 'on'
+-if "%MAVEN_BATCH_PAUSE%" == "on" pause
+-
+-if "%MAVEN_TERMINATE_CMD%" == "on" exit %ERROR_CODE%
+-
+-exit /B %ERROR_CODE%
+diff --git demo/.mvn/wrapper/maven-wrapper.jar demo/.mvn/wrapper/maven-wrapper.jar
+deleted file mode 100644
+index 9cc84ea9b4d95453115d0c26488d6a78694e0bc6..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git demo/mvnw demo/mvnw
+deleted file mode 100644
+index 5bf251c0774593ca4f5335acf0f7483eaa162e8f..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
