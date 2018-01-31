@@ -21,6 +21,10 @@ Memo:
 
 ##è‡
 
-cd gun-shopping
+1. cd ./gun-shopping
 
-npm install
+2. npm install
+
+3. mvn (clean) install
+
+4. run Bootstrap.java
