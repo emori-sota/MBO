@@ -21,6 +21,7 @@
     "grunt": "^1.0.1",
     "node": "^9.4.0",
     "react-router-dom": "^4.2.2",
+    "thymeleaf": "^0.9.0",
     "webpack": "^3.10.0"
   },
   "dependencies": {
