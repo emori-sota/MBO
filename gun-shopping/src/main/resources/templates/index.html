@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
   <head>
-    <title>GunShopping IndexPage</title>
+    <title>IndexPage</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta charset="UTF-8"/>
+    <link href="/css/main.css" th:href="@{/css/main.css}" rel="stylesheet"></link>
   </head>
   <body>
-  	<p>hi</p>
-<!--     <div id="content"></div> -->
-<!--     <script src="./index.js"></script> -->
+  	<p th:text="${name}"></p>
+  	<a>test</a>
+  	<div id="app"></div>
+  	<script type="text/javascript" src="/js/main.js"></script>
   </body>
 </html>
