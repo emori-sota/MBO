@@ -2448,3 +2448,656 @@ Verify the connector's configuration, identify and stop any process that's liste
 2018-02-21 16:09:14.749  INFO 1308 --- [main] com.shopping.gun.job.Bootstrap           : Started Bootstrap in 3.232 seconds (JVM running for 4.446)
 2018-02-21 16:13:32.291  INFO 1308 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
 2018-02-21 16:13:32.292  INFO 1308 --- [RMI TCP Connection(7)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@564718df: startup date [Wed Feb 21 16:09:12 JST 2018]; root of context hierarchy
+2018-02-23 11:12:09.278  INFO 7240 --- [main] com.shopping.gun.job.Bootstrap           : Starting Bootstrap on PC-10323 with PID 7240 (C:\Users\B09683\MBO\MBO\gun-shopping\target\classes started by B09683 in C:\Users\B09683\MBO\MBO\gun-shopping)
+2018-02-23 11:12:09.284  INFO 7240 --- [main] com.shopping.gun.job.Bootstrap           : No active profile set, falling back to default profiles: default
+2018-02-23 11:12:09.594  INFO 7240 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@564718df: startup date [Fri Feb 23 11:12:09 JST 2018]; root of context hierarchy
+2018-02-23 11:12:10.809  INFO 7240 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-02-23 11:12:10.820  INFO 7240 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-23 11:12:10.821  INFO 7240 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-23 11:12:10.909  INFO 7240 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-23 11:12:10.910  INFO 7240 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1324 ms
+2018-02-23 11:12:11.107  INFO 7240 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-23 11:12:11.112  INFO 7240 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-23 11:12:11.113  INFO 7240 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-23 11:12:11.113  INFO 7240 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-23 11:12:11.114  INFO 7240 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-23 11:12:11.531  INFO 7240 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@564718df: startup date [Fri Feb 23 11:12:09 JST 2018]; root of context hierarchy
+2018-02-23 11:12:11.599  INFO 7240 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.shopping.gun.controller.MainController.index(org.springframework.ui.Model)
+2018-02-23 11:12:11.603  INFO 7240 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/home]}" onto public java.lang.String com.shopping.gun.controller.SubController.index()
+2018-02-23 11:12:11.608  INFO 7240 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-23 11:12:11.609  INFO 7240 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-23 11:12:11.647  INFO 7240 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 11:12:11.647  INFO 7240 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 11:12:11.686  INFO 7240 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 11:12:12.180  INFO 7240 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2018-02-23 11:12:12.187  INFO 7240 --- [main] com.shopping.gun.job.Bootstrap           : Started Bootstrap in 3.191 seconds (JVM running for 4.634)
+2018-02-23 11:12:42.208  INFO 7240 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-02-23 11:12:42.208  INFO 7240 --- [RMI TCP Connection(5)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@564718df: startup date [Fri Feb 23 11:12:09 JST 2018]; root of context hierarchy
+2018-02-23 11:12:46.281  INFO 15984 --- [main] com.shopping.gun.job.Bootstrap           : Starting Bootstrap on PC-10323 with PID 15984 (C:\Users\B09683\MBO\MBO\gun-shopping\target\classes started by B09683 in C:\Users\B09683\MBO\MBO\gun-shopping)
+2018-02-23 11:12:46.292  INFO 15984 --- [main] com.shopping.gun.job.Bootstrap           : No active profile set, falling back to default profiles: default
+2018-02-23 11:12:46.668  INFO 15984 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@564718df: startup date [Fri Feb 23 11:12:46 JST 2018]; root of context hierarchy
+2018-02-23 11:12:47.897  INFO 15984 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-02-23 11:12:47.904  INFO 15984 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-23 11:12:47.905  INFO 15984 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-23 11:12:47.989  INFO 15984 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-23 11:12:47.990  INFO 15984 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1326 ms
+2018-02-23 11:12:48.128  INFO 15984 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-23 11:12:48.131  INFO 15984 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-23 11:12:48.132  INFO 15984 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-23 11:12:48.142  INFO 15984 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-23 11:12:48.142  INFO 15984 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-23 11:12:48.435  INFO 15984 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@564718df: startup date [Fri Feb 23 11:12:46 JST 2018]; root of context hierarchy
+2018-02-23 11:12:48.476  INFO 15984 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.shopping.gun.controller.MainController.index(org.springframework.ui.Model)
+2018-02-23 11:12:48.476  INFO 15984 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/home]}" onto public java.lang.String com.shopping.gun.controller.SubController.index()
+2018-02-23 11:12:48.486  INFO 15984 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-23 11:12:48.486  INFO 15984 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-23 11:12:48.503  INFO 15984 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 11:12:48.504  INFO 15984 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 11:12:48.550  INFO 15984 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 11:12:49.028  INFO 15984 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2018-02-23 11:12:49.028  INFO 15984 --- [main] com.shopping.gun.job.Bootstrap           : Started Bootstrap in 3.001 seconds (JVM running for 3.981)
+2018-02-23 11:13:49.675  INFO 15984 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-02-23 11:13:49.675  INFO 15984 --- [RMI TCP Connection(4)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@564718df: startup date [Fri Feb 23 11:12:46 JST 2018]; root of context hierarchy
+2018-02-23 11:14:12.382  INFO 13176 --- [main] com.shopping.gun.job.Bootstrap           : Starting Bootstrap on PC-10323 with PID 13176 (C:\Users\B09683\MBO\MBO\gun-shopping\target\classes started by B09683 in C:\Users\B09683\MBO\MBO\gun-shopping)
+2018-02-23 11:14:12.383  INFO 13176 --- [main] com.shopping.gun.job.Bootstrap           : No active profile set, falling back to default profiles: default
+2018-02-23 11:14:12.671  INFO 13176 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@564718df: startup date [Fri Feb 23 11:14:12 JST 2018]; root of context hierarchy
+2018-02-23 11:14:13.573  INFO 13176 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-02-23 11:14:13.574  INFO 13176 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-23 11:14:13.574  INFO 13176 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-23 11:14:13.654  INFO 13176 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-23 11:14:13.654  INFO 13176 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 988 ms
+2018-02-23 11:14:13.766  INFO 13176 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-23 11:14:13.769  INFO 13176 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-23 11:14:13.770  INFO 13176 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-23 11:14:13.770  INFO 13176 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-23 11:14:13.770  INFO 13176 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-23 11:14:14.032  INFO 13176 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@564718df: startup date [Fri Feb 23 11:14:12 JST 2018]; root of context hierarchy
+2018-02-23 11:14:14.059  INFO 13176 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.shopping.gun.controller.MainController.index(org.springframework.ui.Model)
+2018-02-23 11:14:14.060  INFO 13176 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/home]}" onto public java.lang.String com.shopping.gun.controller.SubController.index()
+2018-02-23 11:14:14.063  INFO 13176 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-23 11:14:14.064  INFO 13176 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-23 11:14:14.088  INFO 13176 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 11:14:14.098  INFO 13176 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 11:14:14.128  INFO 13176 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 11:14:14.462  INFO 13176 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2018-02-23 11:14:14.463  INFO 13176 --- [main] com.shopping.gun.job.Bootstrap           : Started Bootstrap in 2.288 seconds (JVM running for 3.079)
+2018-02-23 11:16:25.471  INFO 13176 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-02-23 11:16:25.472  INFO 13176 --- [RMI TCP Connection(5)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@564718df: startup date [Fri Feb 23 11:14:12 JST 2018]; root of context hierarchy
+2018-02-23 11:25:42.330  INFO 2740 --- [main] com.shopping.gun.job.Bootstrap           : Starting Bootstrap on PC-10323 with PID 2740 (C:\Users\B09683\MBO\MBO\gun-shopping\target\classes started by B09683 in C:\Users\B09683\MBO\MBO\gun-shopping)
+2018-02-23 11:25:42.333  INFO 2740 --- [main] com.shopping.gun.job.Bootstrap           : No active profile set, falling back to default profiles: default
+2018-02-23 11:25:42.619  INFO 2740 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@564718df: startup date [Fri Feb 23 11:25:42 JST 2018]; root of context hierarchy
+2018-02-23 11:25:43.572  INFO 2740 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-02-23 11:25:43.580  INFO 2740 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-23 11:25:43.581  INFO 2740 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-23 11:25:43.680  INFO 2740 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-23 11:25:43.680  INFO 2740 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1066 ms
+2018-02-23 11:25:43.891  INFO 2740 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-23 11:25:43.895  INFO 2740 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-23 11:25:43.896  INFO 2740 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-23 11:25:43.896  INFO 2740 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-23 11:25:43.897  INFO 2740 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-23 11:25:44.234  INFO 2740 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@564718df: startup date [Fri Feb 23 11:25:42 JST 2018]; root of context hierarchy
+2018-02-23 11:25:44.275  INFO 2740 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.shopping.gun.controller.MainController.index(org.springframework.ui.Model)
+2018-02-23 11:25:44.277  INFO 2740 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/home]}" onto public java.lang.String com.shopping.gun.controller.SubController.index()
+2018-02-23 11:25:44.280  INFO 2740 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-23 11:25:44.281  INFO 2740 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-23 11:25:44.306  INFO 2740 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 11:25:44.307  INFO 2740 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 11:25:44.337  INFO 2740 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 11:25:44.682  INFO 2740 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2018-02-23 11:25:44.686  INFO 2740 --- [main] com.shopping.gun.job.Bootstrap           : Started Bootstrap in 2.566 seconds (JVM running for 3.316)
+2018-02-23 11:26:14.924  INFO 2740 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-02-23 11:26:14.925  INFO 2740 --- [RMI TCP Connection(5)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@564718df: startup date [Fri Feb 23 11:25:42 JST 2018]; root of context hierarchy
+2018-02-23 11:59:04.114  INFO 11852 --- [main] com.shopping.gun.job.Bootstrap           : Starting Bootstrap on PC-10323 with PID 11852 (C:\Users\B09683\MBO\MBO\gun-shopping\target\classes started by B09683 in C:\Users\B09683\MBO\MBO\gun-shopping)
+2018-02-23 11:59:04.117  INFO 11852 --- [main] com.shopping.gun.job.Bootstrap           : No active profile set, falling back to default profiles: default
+2018-02-23 11:59:04.380  INFO 11852 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@564718df: startup date [Fri Feb 23 11:59:04 JST 2018]; root of context hierarchy
+2018-02-23 11:59:05.307  INFO 11852 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-02-23 11:59:05.314  INFO 11852 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-23 11:59:05.315  INFO 11852 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-23 11:59:05.380  INFO 11852 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-23 11:59:05.380  INFO 11852 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1003 ms
+2018-02-23 11:59:05.495  INFO 11852 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-23 11:59:05.498  INFO 11852 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-23 11:59:05.499  INFO 11852 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-23 11:59:05.499  INFO 11852 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-23 11:59:05.499  INFO 11852 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-23 11:59:05.747  INFO 11852 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@564718df: startup date [Fri Feb 23 11:59:04 JST 2018]; root of context hierarchy
+2018-02-23 11:59:05.791  INFO 11852 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.shopping.gun.controller.MainController.index(org.springframework.ui.Model)
+2018-02-23 11:59:05.793  INFO 11852 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/home]}" onto public java.lang.String com.shopping.gun.controller.SubController.index()
+2018-02-23 11:59:05.796  INFO 11852 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-23 11:59:05.797  INFO 11852 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-23 11:59:05.820  INFO 11852 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 11:59:05.820  INFO 11852 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 11:59:05.847  INFO 11852 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 11:59:06.184  INFO 11852 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2018-02-23 11:59:06.188  INFO 11852 --- [main] com.shopping.gun.job.Bootstrap           : Started Bootstrap in 2.276 seconds (JVM running for 2.961)
+2018-02-23 13:45:07.211  INFO 11852 --- [RMI TCP Connection(109)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-02-23 13:45:07.211  INFO 11852 --- [RMI TCP Connection(109)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@564718df: startup date [Fri Feb 23 11:59:04 JST 2018]; root of context hierarchy
+2018-02-23 14:18:30.689  INFO 1220 --- [main] com.shopping.gun.job.Bootstrap           : Starting Bootstrap on PC-10323 with PID 1220 (C:\Users\B09683\MBO\MBO\gun-shopping\target\classes started by B09683 in C:\Users\B09683\MBO\MBO\gun-shopping)
+2018-02-23 14:18:30.692  INFO 1220 --- [main] com.shopping.gun.job.Bootstrap           : No active profile set, falling back to default profiles: default
+2018-02-23 14:18:30.966  INFO 1220 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@214b199c: startup date [Fri Feb 23 14:18:30 JST 2018]; root of context hierarchy
+2018-02-23 14:18:32.108  INFO 1220 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-02-23 14:18:32.117  INFO 1220 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-23 14:18:32.118  INFO 1220 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-23 14:18:32.203  INFO 1220 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-23 14:18:32.204  INFO 1220 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1241 ms
+2018-02-23 14:18:32.346  INFO 1220 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-23 14:18:32.349  INFO 1220 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-23 14:18:32.350  INFO 1220 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-23 14:18:32.350  INFO 1220 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-23 14:18:32.350  INFO 1220 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-23 14:18:32.385  WARN 1220 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+2018-02-23 14:18:32.387  INFO 1220 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-02-23 14:18:32.399  INFO 1220 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-02-23 14:18:32.409 ERROR 1220 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+
+2018-02-23 14:23:05.054  INFO 8364 --- [main] com.shopping.gun.job.Bootstrap           : Starting Bootstrap on PC-10323 with PID 8364 (C:\Users\B09683\MBO\MBO\gun-shopping\target\classes started by B09683 in C:\Users\B09683\MBO\MBO\gun-shopping)
+2018-02-23 14:23:05.057  INFO 8364 --- [main] com.shopping.gun.job.Bootstrap           : No active profile set, falling back to default profiles: default
+2018-02-23 14:23:05.362  INFO 8364 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@214b199c: startup date [Fri Feb 23 14:23:05 JST 2018]; root of context hierarchy
+2018-02-23 14:23:06.542  INFO 8364 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-02-23 14:23:06.553  INFO 8364 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-23 14:23:06.555  INFO 8364 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-23 14:23:06.668  INFO 8364 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-23 14:23:06.668  INFO 8364 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1310 ms
+2018-02-23 14:23:06.807  INFO 8364 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-23 14:23:06.810  INFO 8364 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-23 14:23:06.811  INFO 8364 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-23 14:23:06.811  INFO 8364 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-23 14:23:06.812  INFO 8364 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-23 14:23:06.849  WARN 8364 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+2018-02-23 14:23:06.850  INFO 8364 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-02-23 14:23:06.861  INFO 8364 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-02-23 14:23:06.868 ERROR 8364 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+
+2018-02-23 14:23:30.462  INFO 8012 --- [main] com.shopping.gun.job.Bootstrap           : Starting Bootstrap on PC-10323 with PID 8012 (C:\Users\B09683\MBO\MBO\gun-shopping\target\classes started by B09683 in C:\Users\B09683\MBO\MBO\gun-shopping)
+2018-02-23 14:23:30.465  INFO 8012 --- [main] com.shopping.gun.job.Bootstrap           : No active profile set, falling back to default profiles: default
+2018-02-23 14:23:30.689  INFO 8012 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@214b199c: startup date [Fri Feb 23 14:23:30 JST 2018]; root of context hierarchy
+2018-02-23 14:23:31.882  INFO 8012 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-02-23 14:23:31.890  INFO 8012 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-23 14:23:31.892  INFO 8012 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-23 14:23:31.975  INFO 8012 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-23 14:23:31.975  INFO 8012 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1289 ms
+2018-02-23 14:23:32.111  INFO 8012 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-23 14:23:32.115  INFO 8012 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-23 14:23:32.116  INFO 8012 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-23 14:23:32.116  INFO 8012 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-23 14:23:32.116  INFO 8012 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-23 14:23:32.151  WARN 8012 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+2018-02-23 14:23:32.153  INFO 8012 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-02-23 14:23:32.164  INFO 8012 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-02-23 14:23:32.171 ERROR 8012 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+
+2018-02-23 14:30:37.127  INFO 7852 --- [main] com.shopping.gun.job.Bootstrap           : Starting Bootstrap on PC-10323 with PID 7852 (C:\Users\B09683\MBO\MBO\gun-shopping\target\classes started by B09683 in C:\Users\B09683\MBO\MBO\gun-shopping)
+2018-02-23 14:30:37.131  INFO 7852 --- [main] com.shopping.gun.job.Bootstrap           : No active profile set, falling back to default profiles: default
+2018-02-23 14:30:37.443  INFO 7852 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@214b199c: startup date [Fri Feb 23 14:30:37 JST 2018]; root of context hierarchy
+2018-02-23 14:30:38.739  INFO 7852 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-02-23 14:30:38.748  INFO 7852 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-23 14:30:38.748  INFO 7852 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-23 14:30:38.829  INFO 7852 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-23 14:30:38.829  INFO 7852 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1391 ms
+2018-02-23 14:30:38.963  INFO 7852 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-23 14:30:38.966  INFO 7852 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-23 14:30:38.967  INFO 7852 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-23 14:30:38.967  INFO 7852 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-23 14:30:38.967  INFO 7852 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-23 14:30:39.004  WARN 7852 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+2018-02-23 14:30:39.005  INFO 7852 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-02-23 14:30:39.017  INFO 7852 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-02-23 14:30:39.023 ERROR 7852 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+
+2018-02-23 14:32:00.392  INFO 8724 --- [main] com.shopping.gun.job.Bootstrap           : Starting Bootstrap on PC-10323 with PID 8724 (C:\Users\B09683\MBO\MBO\gun-shopping\target\classes started by B09683 in C:\Users\B09683\MBO\MBO\gun-shopping)
+2018-02-23 14:32:00.395  INFO 8724 --- [main] com.shopping.gun.job.Bootstrap           : No active profile set, falling back to default profiles: default
+2018-02-23 14:32:00.694  INFO 8724 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@214b199c: startup date [Fri Feb 23 14:32:00 JST 2018]; root of context hierarchy
+2018-02-23 14:32:01.941  INFO 8724 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-02-23 14:32:01.950  INFO 8724 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-23 14:32:01.951  INFO 8724 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-23 14:32:02.048  INFO 8724 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-23 14:32:02.048  INFO 8724 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1358 ms
+2018-02-23 14:32:02.182  INFO 8724 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-23 14:32:02.185  INFO 8724 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-23 14:32:02.186  INFO 8724 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-23 14:32:02.186  INFO 8724 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-23 14:32:02.187  INFO 8724 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-23 14:32:02.221  WARN 8724 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+2018-02-23 14:32:02.223  INFO 8724 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-02-23 14:32:02.234  INFO 8724 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-02-23 14:32:02.240 ERROR 8724 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+
+2018-02-23 14:32:24.254  INFO 3968 --- [main] com.shopping.gun.job.Bootstrap           : Starting Bootstrap on PC-10323 with PID 3968 (C:\Users\B09683\MBO\MBO\gun-shopping\target\classes started by B09683 in C:\Users\B09683\MBO\MBO\gun-shopping)
+2018-02-23 14:32:24.273  INFO 3968 --- [main] com.shopping.gun.job.Bootstrap           : No active profile set, falling back to default profiles: default
+2018-02-23 14:32:24.543  INFO 3968 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@214b199c: startup date [Fri Feb 23 14:32:24 JST 2018]; root of context hierarchy
+2018-02-23 14:32:25.679  INFO 3968 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-02-23 14:32:25.688  INFO 3968 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-23 14:32:25.689  INFO 3968 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-23 14:32:25.771  INFO 3968 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-23 14:32:25.771  INFO 3968 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1231 ms
+2018-02-23 14:32:25.889  INFO 3968 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-23 14:32:25.892  INFO 3968 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-23 14:32:25.893  INFO 3968 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-23 14:32:25.893  INFO 3968 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-23 14:32:25.893  INFO 3968 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-23 14:32:25.939  WARN 3968 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+2018-02-23 14:32:25.941  INFO 3968 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-02-23 14:32:25.953  INFO 3968 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-02-23 14:32:25.958 ERROR 3968 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+
+2018-02-23 14:33:55.547  INFO 11524 --- [main] com.shopping.gun.job.Bootstrap           : Starting Bootstrap on PC-10323 with PID 11524 (C:\Users\B09683\MBO\MBO\gun-shopping\target\classes started by B09683 in C:\Users\B09683\MBO\MBO\gun-shopping)
+2018-02-23 14:33:55.550  INFO 11524 --- [main] com.shopping.gun.job.Bootstrap           : No active profile set, falling back to default profiles: default
+2018-02-23 14:33:55.804  INFO 11524 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@214b199c: startup date [Fri Feb 23 14:33:55 JST 2018]; root of context hierarchy
+2018-02-23 14:33:57.024  INFO 11524 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-02-23 14:33:57.032  INFO 11524 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-23 14:33:57.033  INFO 11524 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-23 14:33:57.118  INFO 11524 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-23 14:33:57.118  INFO 11524 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1318 ms
+2018-02-23 14:33:57.256  INFO 11524 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-23 14:33:57.259  INFO 11524 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-23 14:33:57.259  INFO 11524 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-23 14:33:57.260  INFO 11524 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-23 14:33:57.260  INFO 11524 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-23 14:33:57.295  WARN 11524 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+2018-02-23 14:33:57.296  INFO 11524 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-02-23 14:33:57.308  INFO 11524 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-02-23 14:33:57.314 ERROR 11524 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+
+2018-02-23 14:37:42.894  INFO 9584 --- [main] com.shopping.gun.job.Bootstrap           : Starting Bootstrap on PC-10323 with PID 9584 (C:\Users\B09683\MBO\MBO\gun-shopping\target\classes started by B09683 in C:\Users\B09683\MBO\MBO\gun-shopping)
+2018-02-23 14:37:42.897  INFO 9584 --- [main] com.shopping.gun.job.Bootstrap           : No active profile set, falling back to default profiles: default
+2018-02-23 14:37:43.135  INFO 9584 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2893de87: startup date [Fri Feb 23 14:37:43 JST 2018]; root of context hierarchy
+2018-02-23 14:37:44.228  INFO 9584 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-02-23 14:37:44.236  INFO 9584 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-23 14:37:44.237  INFO 9584 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-23 14:37:44.320  INFO 9584 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-23 14:37:44.321  INFO 9584 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1188 ms
+2018-02-23 14:37:44.452  INFO 9584 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-23 14:37:44.456  INFO 9584 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-23 14:37:44.456  INFO 9584 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-23 14:37:44.456  INFO 9584 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-23 14:37:44.457  INFO 9584 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-23 14:37:44.494  WARN 9584 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+2018-02-23 14:37:44.495  INFO 9584 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-02-23 14:37:44.514  INFO 9584 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-02-23 14:37:44.522 ERROR 9584 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+
+2018-02-23 14:38:00.905  INFO 10292 --- [main] com.shopping.gun.job.Bootstrap           : Starting Bootstrap on PC-10323 with PID 10292 (C:\Users\B09683\MBO\MBO\gun-shopping\target\classes started by B09683 in C:\Users\B09683\MBO\MBO\gun-shopping)
+2018-02-23 14:38:00.907  INFO 10292 --- [main] com.shopping.gun.job.Bootstrap           : No active profile set, falling back to default profiles: default
+2018-02-23 14:38:01.150  INFO 10292 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2893de87: startup date [Fri Feb 23 14:38:01 JST 2018]; root of context hierarchy
+2018-02-23 14:38:02.231  INFO 10292 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-02-23 14:38:02.241  INFO 10292 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-23 14:38:02.243  INFO 10292 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-23 14:38:02.326  INFO 10292 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-23 14:38:02.327  INFO 10292 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1180 ms
+2018-02-23 14:38:02.471  INFO 10292 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-23 14:38:02.475  INFO 10292 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-23 14:38:02.475  INFO 10292 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-23 14:38:02.475  INFO 10292 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-23 14:38:02.476  INFO 10292 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-23 14:38:02.511  WARN 10292 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+2018-02-23 14:38:02.512  INFO 10292 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-02-23 14:38:02.527  INFO 10292 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-02-23 14:38:02.533 ERROR 10292 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+
+2018-02-23 14:40:16.266  INFO 10956 --- [main] com.shopping.gun.job.Bootstrap           : Starting Bootstrap on PC-10323 with PID 10956 (C:\Users\B09683\MBO\MBO\gun-shopping\target\classes started by B09683 in C:\Users\B09683\MBO\MBO\gun-shopping)
+2018-02-23 14:40:16.269  INFO 10956 --- [main] com.shopping.gun.job.Bootstrap           : No active profile set, falling back to default profiles: default
+2018-02-23 14:40:16.525  INFO 10956 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2893de87: startup date [Fri Feb 23 14:40:16 JST 2018]; root of context hierarchy
+2018-02-23 14:40:17.696  INFO 10956 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-02-23 14:40:17.706  INFO 10956 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-23 14:40:17.707  INFO 10956 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-23 14:40:17.802  INFO 10956 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-23 14:40:17.803  INFO 10956 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1281 ms
+2018-02-23 14:40:17.937  INFO 10956 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-23 14:40:17.942  INFO 10956 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-23 14:40:17.943  INFO 10956 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-23 14:40:17.944  INFO 10956 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-23 14:40:17.945  INFO 10956 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-23 14:40:18.323  INFO 10956 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-02-23 14:40:18.337  INFO 10956 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-02-23 14:40:18.411  INFO 10956 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-02-23 14:40:18.413  INFO 10956 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-02-23 14:40:18.414  INFO 10956 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-02-23 14:40:18.459  INFO 10956 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-23 14:40:18.772  INFO 10956 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-02-23 14:40:18.921  INFO 10956 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2018-02-23 14:40:19.051  INFO 10956 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-02-23 14:40:19.322  INFO 10956 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2893de87: startup date [Fri Feb 23 14:40:16 JST 2018]; root of context hierarchy
+2018-02-23 14:40:19.380  INFO 10956 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.shopping.gun.controller.MainController.index(org.springframework.ui.Model)
+2018-02-23 14:40:19.382  INFO 10956 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/home]}" onto public java.lang.String com.shopping.gun.controller.SubController.index()
+2018-02-23 14:40:19.385  INFO 10956 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-23 14:40:19.386  INFO 10956 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-23 14:40:19.419  INFO 10956 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 14:40:19.420  INFO 10956 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 14:40:19.462  INFO 10956 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 14:40:19.902  INFO 10956 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2018-02-23 14:40:19.905  INFO 10956 --- [main] com.shopping.gun.job.Bootstrap           : Started Bootstrap in 3.849 seconds (JVM running for 4.564)
+2018-02-23 14:40:41.791  INFO 10956 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-23 14:40:41.801  INFO 10956 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-23 14:40:41.812  INFO 10956 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 11 ms
+2018-02-23 14:42:57.704  INFO 10956 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-02-23 14:42:57.705  INFO 10956 --- [RMI TCP Connection(7)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2893de87: startup date [Fri Feb 23 14:40:16 JST 2018]; root of context hierarchy
+2018-02-23 14:42:57.707  INFO 10956 --- [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-02-23 14:43:30.114  INFO 3900 --- [main] com.shopping.gun.job.Bootstrap           : Starting Bootstrap on PC-10323 with PID 3900 (C:\Users\B09683\MBO\MBO\gun-shopping\target\classes started by B09683 in C:\Users\B09683\MBO\MBO\gun-shopping)
+2018-02-23 14:43:30.116  INFO 3900 --- [main] com.shopping.gun.job.Bootstrap           : No active profile set, falling back to default profiles: default
+2018-02-23 14:43:30.348  INFO 3900 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2893de87: startup date [Fri Feb 23 14:43:30 JST 2018]; root of context hierarchy
+2018-02-23 14:43:31.555  INFO 3900 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-02-23 14:43:31.565  INFO 3900 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-23 14:43:31.566  INFO 3900 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-23 14:43:31.651  INFO 3900 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-23 14:43:31.651  INFO 3900 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1306 ms
+2018-02-23 14:43:31.784  INFO 3900 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-23 14:43:31.787  INFO 3900 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-23 14:43:31.787  INFO 3900 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-23 14:43:31.787  INFO 3900 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-23 14:43:31.787  INFO 3900 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-23 14:43:32.038  INFO 3900 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-02-23 14:43:32.048  INFO 3900 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-02-23 14:43:32.102  INFO 3900 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-02-23 14:43:32.104  INFO 3900 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-02-23 14:43:32.105  INFO 3900 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-02-23 14:43:32.144  INFO 3900 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-23 14:43:32.457  INFO 3900 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-02-23 14:43:32.595  INFO 3900 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2018-02-23 14:43:32.706  INFO 3900 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-02-23 14:43:33.025  INFO 3900 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2893de87: startup date [Fri Feb 23 14:43:30 JST 2018]; root of context hierarchy
+2018-02-23 14:43:33.091  INFO 3900 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.shopping.gun.controller.MainController.index(org.springframework.ui.Model)
+2018-02-23 14:43:33.093  INFO 3900 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/home]}" onto public java.lang.String com.shopping.gun.controller.SubController.index()
+2018-02-23 14:43:33.097  INFO 3900 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-23 14:43:33.098  INFO 3900 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-23 14:43:33.135  INFO 3900 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 14:43:33.136  INFO 3900 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 14:43:33.189  INFO 3900 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 14:43:33.774  INFO 3900 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2018-02-23 14:43:33.779  INFO 3900 --- [main] com.shopping.gun.job.Bootstrap           : Started Bootstrap in 3.881 seconds (JVM running for 4.598)
+2018-02-23 14:43:37.425  INFO 3900 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-23 14:43:37.426  INFO 3900 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-23 14:43:37.442  INFO 3900 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2018-02-23 14:47:08.079  INFO 3900 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-02-23 14:47:08.079  INFO 3900 --- [RMI TCP Connection(9)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2893de87: startup date [Fri Feb 23 14:43:30 JST 2018]; root of context hierarchy
+2018-02-23 14:47:08.079  INFO 3900 --- [RMI TCP Connection(9)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-02-23 14:47:10.441  INFO 10692 --- [main] com.shopping.gun.job.Bootstrap           : Starting Bootstrap on PC-10323 with PID 10692 (C:\Users\B09683\MBO\MBO\gun-shopping\target\classes started by B09683 in C:\Users\B09683\MBO\MBO\gun-shopping)
+2018-02-23 14:47:10.445  INFO 10692 --- [main] com.shopping.gun.job.Bootstrap           : No active profile set, falling back to default profiles: default
+2018-02-23 14:47:10.665  INFO 10692 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2893de87: startup date [Fri Feb 23 14:47:10 JST 2018]; root of context hierarchy
+2018-02-23 14:47:11.751  INFO 10692 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-02-23 14:47:11.752  INFO 10692 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-23 14:47:11.753  INFO 10692 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-23 14:47:11.847  INFO 10692 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-23 14:47:11.847  INFO 10692 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1182 ms
+2018-02-23 14:47:11.974  INFO 10692 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-23 14:47:11.984  INFO 10692 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-23 14:47:11.984  INFO 10692 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-23 14:47:11.984  INFO 10692 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-23 14:47:11.984  INFO 10692 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-23 14:47:12.232  INFO 10692 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-02-23 14:47:12.242  INFO 10692 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-02-23 14:47:12.292  INFO 10692 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-02-23 14:47:12.302  INFO 10692 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-02-23 14:47:12.302  INFO 10692 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-02-23 14:47:12.332  INFO 10692 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-23 14:47:12.616  INFO 10692 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-02-23 14:47:12.738  INFO 10692 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2018-02-23 14:47:12.841  INFO 10692 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-02-23 14:47:13.099  INFO 10692 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2893de87: startup date [Fri Feb 23 14:47:10 JST 2018]; root of context hierarchy
+2018-02-23 14:47:13.149  INFO 10692 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.shopping.gun.controller.MainController.index(org.springframework.ui.Model)
+2018-02-23 14:47:13.149  INFO 10692 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/home]}" onto public java.lang.String com.shopping.gun.controller.SubController.index()
+2018-02-23 14:47:13.149  INFO 10692 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-23 14:47:13.149  INFO 10692 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-23 14:47:13.179  INFO 10692 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 14:47:13.179  INFO 10692 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 14:47:13.209  INFO 10692 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 14:47:13.660  INFO 10692 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2018-02-23 14:47:13.670  INFO 10692 --- [main] com.shopping.gun.job.Bootstrap           : Started Bootstrap in 3.549 seconds (JVM running for 4.297)
+2018-02-23 14:47:18.750  INFO 10692 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-23 14:47:18.751  INFO 10692 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-23 14:47:18.767  INFO 10692 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2018-02-23 14:49:11.805  INFO 10692 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-02-23 14:49:11.815  INFO 10692 --- [RMI TCP Connection(5)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2893de87: startup date [Fri Feb 23 14:47:10 JST 2018]; root of context hierarchy
+2018-02-23 14:49:11.816  INFO 10692 --- [RMI TCP Connection(5)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-02-23 14:52:12.924  INFO 7344 --- [main] com.shopping.gun.job.Bootstrap           : Starting Bootstrap on PC-10323 with PID 7344 (C:\Users\B09683\MBO\MBO\gun-shopping\target\classes started by B09683 in C:\Users\B09683\MBO\MBO\gun-shopping)
+2018-02-23 14:52:12.929  INFO 7344 --- [main] com.shopping.gun.job.Bootstrap           : No active profile set, falling back to default profiles: default
+2018-02-23 14:52:13.186  INFO 7344 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2893de87: startup date [Fri Feb 23 14:52:13 JST 2018]; root of context hierarchy
+2018-02-23 14:52:14.337  INFO 7344 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-02-23 14:52:14.338  INFO 7344 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-23 14:52:14.338  INFO 7344 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-23 14:52:14.437  INFO 7344 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-23 14:52:14.437  INFO 7344 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1251 ms
+2018-02-23 14:52:14.587  INFO 7344 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-23 14:52:14.587  INFO 7344 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-23 14:52:14.587  INFO 7344 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-23 14:52:14.587  INFO 7344 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-23 14:52:14.587  INFO 7344 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-23 14:52:14.810  INFO 7344 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-02-23 14:52:14.820  INFO 7344 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-02-23 14:52:14.870  INFO 7344 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-02-23 14:52:14.880  INFO 7344 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-02-23 14:52:14.880  INFO 7344 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-02-23 14:52:14.910  INFO 7344 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-23 14:52:15.198  INFO 7344 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-02-23 14:52:15.318  INFO 7344 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2018-02-23 14:52:15.438  INFO 7344 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-02-23 14:52:15.696  INFO 7344 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2893de87: startup date [Fri Feb 23 14:52:13 JST 2018]; root of context hierarchy
+2018-02-23 14:52:15.746  INFO 7344 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.shopping.gun.controller.MainController.index(org.springframework.ui.Model)
+2018-02-23 14:52:15.756  INFO 7344 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/home]}" onto public java.lang.String com.shopping.gun.controller.SubController.index()
+2018-02-23 14:52:15.756  INFO 7344 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-23 14:52:15.756  INFO 7344 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-23 14:52:15.776  INFO 7344 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 14:52:15.776  INFO 7344 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 14:52:15.816  INFO 7344 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 14:52:16.256  INFO 7344 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2018-02-23 14:52:16.256  INFO 7344 --- [main] com.shopping.gun.job.Bootstrap           : Started Bootstrap in 3.55 seconds (JVM running for 4.394)
+2018-02-23 14:52:19.811  INFO 7344 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-23 14:52:19.812  INFO 7344 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-23 14:52:19.830  INFO 7344 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+2018-02-23 14:53:16.043  INFO 7344 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-02-23 14:53:16.043  INFO 7344 --- [RMI TCP Connection(4)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2893de87: startup date [Fri Feb 23 14:52:13 JST 2018]; root of context hierarchy
+2018-02-23 14:53:16.043  INFO 7344 --- [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-02-23 14:53:19.657  INFO 12908 --- [main] com.shopping.gun.job.Bootstrap           : Starting Bootstrap on PC-10323 with PID 12908 (C:\Users\B09683\MBO\MBO\gun-shopping\target\classes started by B09683 in C:\Users\B09683\MBO\MBO\gun-shopping)
+2018-02-23 14:53:19.657  INFO 12908 --- [main] com.shopping.gun.job.Bootstrap           : No active profile set, falling back to default profiles: default
+2018-02-23 14:53:19.901  INFO 12908 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2893de87: startup date [Fri Feb 23 14:53:19 JST 2018]; root of context hierarchy
+2018-02-23 14:53:21.066  INFO 12908 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-02-23 14:53:21.067  INFO 12908 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-23 14:53:21.067  INFO 12908 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-23 14:53:21.177  INFO 12908 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-23 14:53:21.177  INFO 12908 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1276 ms
+2018-02-23 14:53:21.337  INFO 12908 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-23 14:53:21.347  INFO 12908 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-23 14:53:21.347  INFO 12908 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-23 14:53:21.347  INFO 12908 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-23 14:53:21.347  INFO 12908 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-23 14:53:21.589  INFO 12908 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-02-23 14:53:21.599  INFO 12908 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-02-23 14:53:21.640  INFO 12908 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-02-23 14:53:21.640  INFO 12908 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-02-23 14:53:21.640  INFO 12908 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-02-23 14:53:21.684  INFO 12908 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-23 14:53:21.966  INFO 12908 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-02-23 14:53:22.105  INFO 12908 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2018-02-23 14:53:22.207  INFO 12908 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-02-23 14:53:22.480  INFO 12908 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2893de87: startup date [Fri Feb 23 14:53:19 JST 2018]; root of context hierarchy
+2018-02-23 14:53:22.527  INFO 12908 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.shopping.gun.controller.MainController.index(org.springframework.ui.Model)
+2018-02-23 14:53:22.527  INFO 12908 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/home]}" onto public java.lang.String com.shopping.gun.controller.SubController.index()
+2018-02-23 14:53:22.537  INFO 12908 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-23 14:53:22.537  INFO 12908 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-23 14:53:22.557  INFO 12908 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 14:53:22.557  INFO 12908 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 14:53:22.597  INFO 12908 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 14:53:23.005  INFO 12908 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2018-02-23 14:53:23.005  INFO 12908 --- [main] com.shopping.gun.job.Bootstrap           : Started Bootstrap in 3.545 seconds (JVM running for 4.299)
+2018-02-23 14:53:26.164  INFO 12908 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-23 14:53:26.164  INFO 12908 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-23 14:53:26.181  INFO 12908 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2018-02-23 14:56:51.231  INFO 12908 --- [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-02-23 14:56:51.231  INFO 12908 --- [RMI TCP Connection(8)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2893de87: startup date [Fri Feb 23 14:53:19 JST 2018]; root of context hierarchy
+2018-02-23 14:56:51.234  INFO 12908 --- [RMI TCP Connection(8)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-02-23 14:56:53.734  INFO 9856 --- [main] com.shopping.gun.job.Bootstrap           : Starting Bootstrap on PC-10323 with PID 9856 (C:\Users\B09683\MBO\MBO\gun-shopping\target\classes started by B09683 in C:\Users\B09683\MBO\MBO\gun-shopping)
+2018-02-23 14:56:53.737  INFO 9856 --- [main] com.shopping.gun.job.Bootstrap           : No active profile set, falling back to default profiles: default
+2018-02-23 14:56:54.003  INFO 9856 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2893de87: startup date [Fri Feb 23 14:56:54 JST 2018]; root of context hierarchy
+2018-02-23 14:56:55.235  INFO 9856 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-02-23 14:56:55.244  INFO 9856 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-23 14:56:55.245  INFO 9856 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-23 14:56:55.325  INFO 9856 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-23 14:56:55.325  INFO 9856 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1325 ms
+2018-02-23 14:56:55.462  INFO 9856 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-23 14:56:55.465  INFO 9856 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-23 14:56:55.466  INFO 9856 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-23 14:56:55.466  INFO 9856 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-23 14:56:55.466  INFO 9856 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-23 14:56:55.694  INFO 9856 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-02-23 14:56:55.704  INFO 9856 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-02-23 14:56:55.755  INFO 9856 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-02-23 14:56:55.757  INFO 9856 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-02-23 14:56:55.758  INFO 9856 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-02-23 14:56:55.788  INFO 9856 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-23 14:56:56.064  INFO 9856 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-02-23 14:56:56.193  INFO 9856 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2018-02-23 14:56:56.297  INFO 9856 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-02-23 14:56:56.562  INFO 9856 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2893de87: startup date [Fri Feb 23 14:56:54 JST 2018]; root of context hierarchy
+2018-02-23 14:56:56.615  INFO 9856 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.shopping.gun.controller.MainController.index(org.springframework.ui.Model)
+2018-02-23 14:56:56.617  INFO 9856 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/home]}" onto public java.lang.String com.shopping.gun.controller.SubController.index()
+2018-02-23 14:56:56.621  INFO 9856 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-23 14:56:56.621  INFO 9856 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-23 14:56:56.655  INFO 9856 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 14:56:56.656  INFO 9856 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 14:56:56.687  INFO 9856 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-23 14:56:57.116  INFO 9856 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2018-02-23 14:56:57.126  INFO 9856 --- [main] com.shopping.gun.job.Bootstrap           : Started Bootstrap in 3.61 seconds (JVM running for 4.356)
+2018-02-23 14:57:01.315  INFO 9856 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-23 14:57:01.316  INFO 9856 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-23 14:57:01.333  INFO 9856 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+2018-02-23 14:57:09.939  INFO 9856 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-02-23 14:57:09.939  INFO 9856 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2893de87: startup date [Fri Feb 23 14:56:54 JST 2018]; root of context hierarchy
+2018-02-23 14:57:09.939  INFO 9856 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
