@@ -1,14 +1,18 @@
 package com.shopping.gun.model;
 
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
+import javax.validation.constraints.*;
 
-import org.springframework.stereotype.Component;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
+import org.springframework.stereotype.*;
+
+//@Entity
 @Component
 public class User {
 	
 	@NotNull
+	@Id
 	@Size(min = 1, max = 12)
 	int id;
 	

@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-  <head>
-    <title>IndexPage</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta charset="UTF-8"/>
-    <link href="/css/main.css" th:href="@{/css/main.css}" rel="stylesheet"></link>
-  </head>
+  <head th:include="common/header"/>
   <body>
   	<p th:text="${name}"></p>
   	<a>test</a>
-  	<div id="app"></div>
-  	<script type="text/javascript" src="/js/main.js"></script>
+  	<div class="app">
+  		<b>test2</b>
+  	</div>
+  	
+  	<dl id="accordion">
+	<dt><a href="">メニュー1</a></dt>
+	<dd>
+        <a href="#">サブメニュー1-1</a>
+        <a href="#">サブメニュー1-2</a>
+    </dd>
+	<dt><a href="">メニュー2</a></dt>
+	<dd>
+        <a href="#">サブメニュー2-1</a>
+        <a href="#">サブメニュー2-2</a>
+    </dd>
+	<dt><a href="">メニュー3</a></dt>
+	<dd>
+        <a href="#">サブメニュー3-1</a>
+        <a href="#">サブメニュー3-2</a>
+    </dd>
+</dl>
+
   </body>
 </html>
